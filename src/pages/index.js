@@ -1,6 +1,7 @@
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
-import Donations from "../components/Donations";
+import Navbar from "../../components/Navbar";
+import Footer from "../../components/Footer";
+import Donations from "../../components/Donations";
+import Masthead from "../../components/Masthead";
 
 /**
  *  @description
@@ -13,17 +14,16 @@ import Donations from "../components/Donations";
  *  Your server to be running ---> Run `npm run dev` in your terminal
  */
 
-function Home() {
+function Example() {
   return (
     <div>
+        <Masthead />
       <Navbar />
       <section>
         <div className="container">
-          <h1>Welcome to Supplies</h1>
+          <h1>Welcome to Example </h1>
           <p>
-            Help contribute to the community by donating any supplies that you
-            can spare to those who need them the most! (especially with what's
-            going on in the world today)
+            u're in example pg
           </p>
         </div>
       </section>
@@ -33,4 +33,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Example;
